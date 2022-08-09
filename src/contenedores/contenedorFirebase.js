@@ -5,7 +5,6 @@ admin.initializeApp({
   credential: admin.credential.cert(config.firebase)
 });
 
-
 const db = admin.firestore();
 
 class ContenedorFirebase {

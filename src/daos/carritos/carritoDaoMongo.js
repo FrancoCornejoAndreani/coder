@@ -14,6 +14,7 @@ class CarritoDaoMongo extends ContenedorMongo{
         await doc.save();
 
         console.log(this.collection);
+        console.log("Nuevo carrito Creado!");
     }
 
 }
